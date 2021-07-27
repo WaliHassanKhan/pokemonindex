@@ -1,11 +1,16 @@
-run npm install in 
-pokeclient and pokedexserver
+run 
+    
+    npm install 
+in pokeclient and pokedexserver folder
+
 
 
 Server
-run 
-npm start in pokedexserver
+in pokedexserver run 
+    
+    npm start
 
-then run
-ng serve in pokeclient
+in pokeclient run 
+
+    ng serve
 
