@@ -28,3 +28,15 @@ install this chrome add-on to allow CORS
 
 https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
 
+
+
+Features Not Included
+
+Initial list contains only 20 Pokemons
+The website doesn't offer Pokemon search by name yet
+
+
+
+
+
+
