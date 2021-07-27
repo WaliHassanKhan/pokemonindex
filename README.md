@@ -30,7 +30,7 @@ https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgc
 
 
 
-Features Not Included
+**Features Not Included**
 
 
 Initial list contains only 20 Pokemons
