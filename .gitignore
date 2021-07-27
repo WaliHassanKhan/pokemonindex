@@ -1,6 +1,6 @@
 # compiled output
 
-pokedex/node_modules
+pokedexserver/node_modules
 pokeclient/node_modules
 
 # Logs
