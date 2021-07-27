@@ -10,7 +10,10 @@ in pokedexserver run
     
     npm start
 
-to start the Client
+you can also run the server through in a docker container
+
+
+To start the Client
 in pokeclient run 
 
     ng serve
