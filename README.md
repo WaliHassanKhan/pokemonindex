@@ -22,7 +22,7 @@ in pokeclient run
 address: http://localhost:4200/
 
 
-Important:
+**Important:**
 
 install this chrome add-on to allow CORS
 
