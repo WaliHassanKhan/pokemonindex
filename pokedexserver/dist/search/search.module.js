@@ -6,18 +6,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AppModule = void 0;
+exports.SearchModule = void 0;
 const axios_1 = require("@nestjs/axios");
 const common_1 = require("@nestjs/common");
-const index_module_1 = require("./index/index.module");
-const pokemon_module_1 = require("./pokemon/pokemon.module");
-const search_module_1 = require("./search/search.module");
-let AppModule = class AppModule {
+const search_controller_1 = require("./search.controller");
+const search_service_1 = require("./search.service");
+let SearchModule = class SearchModule {
 };
-AppModule = __decorate([
+SearchModule = __decorate([
     common_1.Module({
-        imports: [index_module_1.IndexModule, axios_1.HttpModule, pokemon_module_1.PokemonModule, search_module_1.SearchModule],
+        imports: [axios_1.HttpModule],
+        controllers: [search_controller_1.SearchController],
+        providers: [search_service_1.SearchService]
     })
-], AppModule);
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+], SearchModule);
+exports.SearchModule = SearchModule;
+//# sourceMappingURL=search.module.js.map
